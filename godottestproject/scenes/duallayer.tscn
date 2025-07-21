@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://r5kq1acuxl6"]
+
+[ext_resource type="Script" uid="uid://cqu5ljd02gqp5" path="res://scripts/duallayer_tilemap.gd" id="2_ke745"]
+[ext_resource type="TileSet" uid="uid://ds37pjpr4unl8" path="res://assets/tilesets/visual_layer.tres" id="3_qlwm4"]
+
+[node name="DualLayer_Collision" type="TileMapLayer"]
+z_index = -1
+tile_set = ExtResource("3_qlwm4")
+script = ExtResource("2_ke745")
+
+[node name="VisualLayer" type="TileMapLayer" parent="."]
+position = Vector2(-8, -8)
+tile_set = ExtResource("3_qlwm4")

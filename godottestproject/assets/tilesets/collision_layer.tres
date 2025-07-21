@@ -1,0 +1,10 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://vktnbj0xufaw"]
+
+[ext_resource type="Texture2D" uid="uid://1quht56pp8lu" path="res://assets/sprites/DualGrid_GenericSquare.png" id="1_v0ym3"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uyp0l"]
+texture = ExtResource("1_v0ym3")
+0:0/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_uyp0l")

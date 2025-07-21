@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=4 uid="uid://83ytt2vm1jcb"]
+
+[ext_resource type="PackedScene" uid="uid://r5kq1acuxl6" path="res://scenes/duallayer.tscn" id="1_o8d62"]
+
+[node name="test_automap" type="Node2D"]
+
+[node name="DualLayer_Collision" parent="." instance=ExtResource("1_o8d62")]
+tile_map_data = PackedByteArray("AAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAABAP7/AAAAAAAAAAABAP3/AAAAAAAAAAACAP3/AAAAAAAAAAACAP7/AAAAAAAAAAD+//7/AAAAAAAAAAD9//7/AAAAAAAAAAD8//7/AAAAAAAAAAD8////AAAAAAAAAAD9/wIAAAAAAAAAAAD+/wIAAAAAAAAAAAD//wIAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAIAAAAAAAAAAAACAAIAAAAAAAAAAAA=")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)

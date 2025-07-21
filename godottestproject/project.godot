@@ -11,13 +11,9 @@ config_version=5
 [application]
 
 config/name="GodotTestProject"
-run/main_scene="uid://4w63abh26t2a"
+run/main_scene="uid://83ytt2vm1jcb"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
-
-[autoload]
-
-MusicPlayer="*res://scenes/music_player.tscn"
 
 [input]
 
